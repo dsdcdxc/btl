@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        .cochu{
+            font-size: 50px;
+            font-variant: small-caps;
+        }
+        .canle{
+            margin-left: 100px;
+            margin-right: 100px;
+            margin-bottom: 100px;
+            margin-top: 100px;
+        }
+        body {
+            font-family: Arial;
+            padding: 10px;
+            background: #f1f1f1;
+        }
+
+        header {
+            padding: 30px;
+            background: rgb(0, 149, 255);
+            overflow: hidden;
+        }
+        header img{
+            width: 150px;
+            height: auto;
+            float: left;
+        }
+        header .noidung{
+            float: left;
+            padding-left: 30px;
+        }
+        .search{
+            float: right;
+            line-height: 40px;
+            padding-right: 10px;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 20;
+            padding: 20;
+            overflow: hidden;
+            background-color:green;
+        }
+        nav ul li {
+            float: left;
+        }
+        nav ul li a, .dropbtn {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        li a:hover, .dropdown:hover .dropbtn {
+            background-color: aqua;
+        }
+        li.dropdown {
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        .dropdown-content a:hover {background-color: #f1f1f1;}
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        .leftcolumn {   
+            float: left;
+            width: 75%;
+        }
+        .rightcolumn {
+            float: left;
+            width: 25%;
+            background-color: #f1f1f1;
+            padding-left: 20px;
+        }
+        .fakeimg img{
+            width: 300px;
+            height: auto;
+            padding: 20px;
+        }
+        .fakeimg a{
+            text-decoration: none;
+            color: black;
+            padding: 10px 0;
+        }
+        .fakeimg a:hover{
+            color: cadetblue;
+        }
+       
+        .anh img{
+            float: left;
+            width: 20%;
+            height: 150px;
+            padding: 5px;
+            border-radius: 10px;
+            background-color: chartreuse;
+            box-shadow: 0 0 5px blue;
+        }
+        .anh h3{
+            color: red;
+            text-align: center;
+        }
+        .anh img:hover{
+            box-shadow: 0 0 5px red;
+            background-color: cyan;
+        }
+        .card {
+            background-color: white;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        .row::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        footer{
+            padding-top: 1px;
+            padding-bottom: 1px;
+            line-height:5px;
+            background:lightcyan;
+            text-align: center;
+            font-variant: small-caps;
+            clear: both; 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="image/logo1.jpg" alt="">
+        <div class="noidung">
+            <h2 style="color: white;">NGÀNH GD&ĐT TP HẢI PHÒNG </h2>
+            <h1 style="color: white;">TRƯỜNG THPT Hermann Gmeiner Hải Phòng<h1>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Trang chủ</a></li>
+            <li class="dropdown">
+              <a class="dropbtn" href="gioithieu.html">Giới thiệu</a>
+              <div class="dropdown-content">
+                <a href="cauhoithuongap.html">Câu hỏi thường gặp</a>
+                <a href="cosovatchat.html">cơ sở vật chất</a>
+                <a href="thuvien.html">Thư viện<nav></nav></a>
+              </div>
+            </li>
+            <li><a href="lienhe.html">Liên hệ </a></li>
+            <li><a href="gopy.html">Góp ý</a></li>
+            <li><a href="hoidap.html">Hỏi đáp</a></li>
+           
+          </ul>
+    </nav>
+   <div class="canle">
+  <div class="cochu"><center><h3>cơ sở vật chất</h3></center></div>
+  <p><b>Trường PT Hermann Gmeiner HP có cơ sở vật chất khang trang gồm:</b></p>
+  <p>+ Khu hiệu bộ: Ban giám hiệu và Phòng hội đồng giáo viên.</p>
+  <p>+ 03 dãy nhà học 3 tầng gồm 31 phòng học  được trang bị đầy đủ các bàn học , thiết bị dạy học, đèn led chiếu sáng, có điều hòa và ti vi kết nối mạng để phục vụ nhu cầu học tập của học sinh.</p>
+  <p>+ Phòng thí nghiệm Hóa- Sinh: 02 phòng có đầy đủ các dụng cụ thí nghiệm để học sinh thực hành.</p>
+  <p>+ Phòng thực hành tin học: 02 phòng được trang bị các dàn máy tính hiện đại nhất,giúp học sinh rèn kĩ năng thực hành tin được thành thạo.</p>
+  <p>+ Thư viện: rộng với đầy đủ các loại sách cho học sinh tham khảo.</p>
+  <p>+ Nhà đa năng: rộng lớn, có sân khấu, đảm bảo các hoạt động ngoại khóa diễn ra trong nhà đa năng và thi đấu thể dục thể thao.
+
+  </p>
+  <p>+ Nhà bán trú 3 tầng gồm phòng ăn rộng rãi, thoáng mát và sạch sẽ với thực đơn ăn đa dạng, ngon miệng. Các phòng ngủ được trang bị giường chiếu, chăn ấm và điều hòa , đảm bảo sức khỏe và an toàn cho học sinh nghỉ trưa tại trường.</p>
+  <p>+ Sân bóng cỏ : rộng rãi để tổ chức các hoạt động vui chơi thi đấu bóng đá giữa các lớp học.
+
+  </p>
+  <p>Đặc biệt, nhà trường đã sử dụng có hiệu quả các công trình do phụ huynh ủng hộ như lắp đặt hệ thống camera tại các khu vực trong trường học và trong từng lớp học, hệ thống nước lọc đảm bảo chuẩn  về vệ sinh an toàn.
+
+  </p>
+  <div class="cochu"><h3>TỔNG QUAN</h3></div>
+</div>
+  <footer>
+        
+    <h5 style="padding-left: 200px;">Trường PT Hermann Gmeiner Hải Phòng<h5>
+    <h5 style="padding-left: 200px;">Địa chỉ:543 Nguyễn Bỉnh Khiêm, Hải An, Hải Phòng</h5>
+    <h5 style="padding-left: 200px;">Điện thoại:0977341659</h5>
+</footer>
+</body>
+</html>
+
